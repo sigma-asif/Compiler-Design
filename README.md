@@ -21,15 +21,15 @@
 - Supports common C++ keywords and operators
 - Stores identified tokens in separate vectors for further processing or display
 
-Symbol Table
+# Symbol Table
 
-Tracks program identifiers and their attributes
-Manages variable/function declarations with scope handling
-Records data types and values
+- Tracks program identifiers and their attributes
+- Manages variable/function declarations with scope handling
+- Records data types and values
 
-Parser & Code Generator
+# Parser & Code Generator
 
-Converts infix expressions to postfix notation
-Generates three-address code
-Produces assembly-like instructions
+- Converts infix expressions to postfix notation
+- Generates three-address code
+- Produces assembly-like instructions
 
