@@ -1,4 +1,4 @@
-# compiler-design
+# Compiler-Design
 
 # Lexical Analyzer
 
