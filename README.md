@@ -1,8 +1,8 @@
 # compiler-design
 
-# Lexical Analyzer – Compiler Design Project
+# Lexical Analyzer
 
-This project is a basic **Lexical Analyzer** implemented in C++. It reads a `.cpp` source file and identifies various tokens such as:
+ It reads a `.cpp` source file and identifies various tokens such as:
 
 - Identifiers  
 - Keywords  
@@ -12,7 +12,7 @@ This project is a basic **Lexical Analyzer** implemented in C++. It reads a `.cp
 - String literals  
 - Punctuation symbols  
 
-## Features
+
 
 - Identifies and classifies tokens from a C++ source file
 - Detects and reports:
@@ -21,12 +21,15 @@ This project is a basic **Lexical Analyzer** implemented in C++. It reads a `.cp
 - Supports common C++ keywords and operators
 - Stores identified tokens in separate vectors for further processing or display
 
-## Core Concepts
+Symbol Table
 
-This project demonstrates the first phase of a compiler: **Lexical Analysis**, which breaks the source code into meaningful units (tokens).
+Tracks program identifiers and their attributes
+Manages variable/function declarations with scope handling
+Records data types and values
 
-## How to Use
+Parser & Code Generator
 
-1. Replace the input file path in the `main()` function:
-   ```cpp
-   ifstream file("D:\\addition.cpp");
+Converts infix expressions to postfix notation
+Generates three-address code
+Produces assembly-like instructions
+
